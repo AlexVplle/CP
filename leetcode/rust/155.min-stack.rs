@@ -1,51 +1,51 @@
 struct MinStack {
-    stack: Vec<i32>,
-    min_values: Vec<i32>,
+    stack: Vec<i64>,
+    min_value: i64,
 }
-
 
 /** 
  * `&self` means the method takes an immutable reference.
  * If you need a mutable reference, change it to `&mut self` instead.
  */
 impl MinStack {
-
     fn new() -> Self {
         MinStack { 
             stack: Vec::new(),
-            min_values: Vec::new(),
+            min_value: i64::MAX,
         }
     }
     
     fn push(&mut self, val: i32) {
-        self.stack.push(val);
-        if self.min_values.last().map_or(true, |min: &i32| *min >= val ) {
-            self.min_values.push(val);
+        let val_i64: i64 = val as i64;
+        if val_i64 < self.min_value {
+            self.stack.push(2 * val_i64 - self.min_value);
+            self.min_value = val_i64;
+        }
+        else {
+            self.stack.push(val_i64);
         }
     }
     
     fn pop(&mut self) {
         if let Some(last_value) = self.stack.pop() {
-            if Some(&last_value) == self.min_values.last() {
-                self.min_values.pop();
+            if last_value < self.min_value {
+                self.min_value = 2 * self.min_value - last_value;
             }
         }
     }
     
     fn top(&self) -> i32 {
-        *self.stack.last().unwrap()
+        self.stack.last().map(|last_value: &i64| {
+            if *last_value < self.min_value {
+                self.min_value as i32
+            } 
+            else {
+                *last_value as i32
+            }
+        }).unwrap()
     }
     
     fn get_min(&self) -> i32 {
-        *self.min_values.last().unwrap()
+        self.min_value as i32
     }
 }
-
-/**
- * Your MinStack object will be instantiated and called as such:
- * let obj = MinStack::new();
- * obj.push(val);
- * obj.pop();
- * let ret_3: i32 = obj.top();
- * let ret_4: i32 = obj.get_min();
- */
