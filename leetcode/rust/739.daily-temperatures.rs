@@ -1,21 +1,22 @@
 impl Solution {
     pub fn daily_temperatures(temperatures: Vec<i32>) -> Vec<i32> {
-        let mut result: Vec<i32> = vec![0; temperatures.len()];
-        let mut stack: Vec<i32> = Vec::new();
-        
-        for (index, temperature) in temperatures.iter().enumerate() {
-            let index: i32 = index as i32;
-            
-            // Process temperatures cooler than the current one
-            while !stack.is_empty() && *temperature > temperatures[*stack.last().unwrap() as usize] {
-                let previous_index: i32 = stack.pop().unwrap();
-                result[previous_index as usize] = index - previous_index;
-            }
-            
-            // Add current index to the stack
-            stack.push(index);
-        }
-        
+        let number_of_temperature: usize = temperatures.len();
+        let mut stack: Vec<usize> = Vec::with_capacity(number_of_temperature);
+        let mut result: Vec<i32> = vec![0; number_of_temperature];
+        temperatures
+            .iter()
+            .enumerate()
+            .for_each(|(index, temperature): (usize, &i32)| {
+                while let Some(&top_index) = stack.last() {
+                    if temperatures[top_index] < *temperature {
+                        result[top_index] = (index - top_index) as i32;
+                        stack.pop();
+                    } else {
+                        break;
+                    }
+                }
+                stack.push(index);
+            });
         result
     }
 }
