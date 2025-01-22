@@ -1,3 +1,4 @@
+// @leet start
 impl Solution {
     pub fn largest_altitude(gain: Vec<i32>) -> i32 {
         gain.into_iter()
@@ -8,3 +9,5 @@ impl Solution {
             .0
     }
 }
+// @leet end
+

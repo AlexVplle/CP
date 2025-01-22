@@ -1,3 +1,4 @@
+// @leet start
 impl Solution {
     pub fn pivot_index(nums: Vec<i32>) -> i32 {
         let total_sum: i32 = nums.iter().sum();
@@ -11,3 +12,5 @@ impl Solution {
         -1
     }
 }
+// @leet end
+

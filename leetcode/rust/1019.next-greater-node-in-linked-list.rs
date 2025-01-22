@@ -1,9 +1,29 @@
+// @leet start
+// Definition for singly-linked list.
+// #[derive(PartialEq, Eq, Clone, Debug)]
+// pub struct ListNode {
+//   pub val: i32,
+//   pub next: Option<Box<ListNode>>
+// }
+//
+// impl ListNode {
+//   #[inline]
+//   fn new(val: i32) -> Self {
+//     ListNode {
+//       next: None,
+//       val
+//     }
+//   }
+// }
+
 impl Solution {
     pub fn next_larger_nodes(head: Option<Box<ListNode>>) -> Vec<i32> {
         let mut result = Vec::new();
         let mut stack: Vec<(usize, i32)> = Vec::new();
+
         let mut current = head;
         let mut index = 0;
+
         while let Some(node) = current {
             while let Some(&(_, value)) = stack.last() {
                 if value > node.val {
@@ -23,9 +43,12 @@ impl Solution {
             index += 1;
             current = node.next;
         }
+
         while result.len() < index {
             result.push(0);
         }
+
         result
     }
 }
+// @leet end

@@ -1,21 +1,24 @@
-use std::collections::VecDeque;
-
+// @leet start
 impl Solution {
     pub fn min_sub_array_len(target: i32, nums: Vec<i32>) -> i32 {
-        let n: usize = nums.len();
-        let mut vec: VecDeque<i32> = VecDeque::with_capacity(n);
+        let mut start: usize = 0;
         let mut result: usize = usize::MAX;
         let mut sum: i32 = 0;
-        for i in 0..n {
+        for i in 0..nums.len() {
             sum += nums[i];
-            vec.push_back(nums[i]);
             if sum >= target {
-                while sum - vec.front().unwrap() >= target {
-                    sum -= vec.pop_front().unwrap();
+                while sum - nums[start] >= target {
+                    sum -= nums[start];
+                    start += 1;
                 }
-                result = result.min(vec.len());
+                result = result.min(i - start + 1);
             }
         }
-        if result == usize::MAX { 0 } else { result as i32 }
+        if result == usize::MAX {
+            0
+        } else {
+            result as i32
+        }
     }
 }
+// @leet end

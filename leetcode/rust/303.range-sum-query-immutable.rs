@@ -1,3 +1,4 @@
+// @leet start
 struct NumArray {
     prefix_sum: Vec<i32>,
 }
@@ -19,3 +20,5 @@ impl NumArray {
         self.prefix_sum[right as usize + 1] - self.prefix_sum[left as usize]
     }
 }
+
+// @leet end

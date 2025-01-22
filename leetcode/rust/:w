@@ -1,0 +1,12 @@
+// @leet start
+use std::collections::HashSet;
+
+impl Solution {
+    pub fn car_fleet(target: i32, position: Vec<i32>, speed: Vec<i32>) -> i32 {
+        let remained_distance: Vec<i32> = position.iter().map(|pos: &i32| target - pos).collect();
+        let mut fleet: HashSet<> = HashSet::with_capacity(position.len());
+        remained_distance.into_iter().zip(speed).for_each(|(pos, speed): (i32, i32)| ;
+        hashmap.keys().len() as i32
+    }
+}
+// @leet end

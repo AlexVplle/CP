@@ -1,3 +1,4 @@
+// @leet start
 impl Solution {
     pub fn is_palindrome(s: String) -> bool {
         let len: usize = s.len();
@@ -12,3 +13,5 @@ impl Solution {
             .eq(s_raw.chars().rev().take(len / 2))
     }
 }
+// @leet end
+

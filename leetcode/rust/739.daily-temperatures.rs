@@ -1,3 +1,4 @@
+// @leet start
 impl Solution {
     pub fn daily_temperatures(temperatures: Vec<i32>) -> Vec<i32> {
         let number_of_temperature: usize = temperatures.len();
@@ -20,3 +21,4 @@ impl Solution {
         result
     }
 }
+// @leet end

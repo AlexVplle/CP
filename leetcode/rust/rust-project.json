@@ -1,0 +1,345 @@
+{
+  "sysroot_src": "/home/alexvplle/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library",
+  "crates": [
+    {
+      "root_module": "1.two-sum.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "100.same-tree.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "101.symmetric-tree.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "1019.next-greater-node-in-linked-list.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "102.binary-tree-level-order-traversal.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "103.binary-tree-zigzag-level-order-traversal.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "11.container-with-most-water.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "121.best-time-to-buy-and-sell-stock.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "125.valid-palindrome.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "1413.minimum-value-to-get-positive-step-by-step-sum.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "1422.maximum-score-after-splitting-a-string.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "1475.final-prices-with-a-special-discount-in-a-shop.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "1480.running-sum-of-1d-array.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "1588.sum-of-all-odd-length-subarrays.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "1640.check-array-formation-through-concatenation.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "167.two-sum-ii-input-array-is-sorted.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "1732.find-the-highest-altitude.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "1854.maximum-population-year.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "1856.maximum-subarray-min-product.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "19.remove-nth-node-from-end-of-list.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "2.add-two-numbers.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "2049.count-nodes-with-the-highest-score.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "2053.kth-distinct-string-in-an-array.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "206.reverse-linked-list.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "209.minimum-size-subarray-sum.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "2265.count-nodes-equal-to-average-of-subtree.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "239.sliding-window-maximum.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "2429.minimize-xor.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "2466.count-ways-to-build-good-strings.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "2485.find-the-pivot-integer.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "2514.count-anagrams.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "2574.left-and-right-sum-differences.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "2657.find-the-prefix-common-array-of-two-arrays.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "268.missing-number.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "27.remove-element.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "283.move-zeroes.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "287.find-the-duplicate-number.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "3.longest-substring-without-repeating-characters.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "303.range-sum-query-immutable.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "3223.minimum-length-of-string-after-operations.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "3249.count-the-number-of-good-nodes.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "3254.find-the-power-of-k-size-subarrays-i.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "3255.find-the-power-of-k-size-subarrays-ii.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "344.reverse-string.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "402.remove-k-digits.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "41.first-missing-positive.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "42.trapping-rain-water.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "421.maximum-xor-of-two-numbers-in-an-array.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "456.132-pattern.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "457.circular-array-loop.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "496.next-greater-element-i.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "503.next-greater-element-ii.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "53.maximum-subarray.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "556.next-greater-element-iii.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "560.subarray-sum-equals-k.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "592.fraction-addition-and-subtraction.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "643.maximum-average-subarray-i.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "70.climbing-stairs.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "724.find-pivot-index.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "739.daily-temperatures.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "831.masking-personal-information.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "84.largest-rectangle-in-histogram.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "844.backspace-string-compare.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "853.car-fleet.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "868.binary-gap.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "876.middle-of-the-linked-list.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "88.merge-sorted-array.rs",
+      "edition": "2021",
+      "deps": []
+    },
+    {
+      "root_module": "904.fruit-into-baskets.rs",
+      "edition": "2021",
+      "deps": []
+    }
+  ]
+}

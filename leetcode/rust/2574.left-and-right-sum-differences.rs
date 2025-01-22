@@ -1,3 +1,4 @@
+// @leet start
 impl Solution {
     pub fn left_right_difference(nums: Vec<i32>) -> Vec<i32> {
         let total_sum: i32 = nums.iter().sum();
@@ -11,3 +12,5 @@ impl Solution {
         result
     }
 }
+// @leet end
+

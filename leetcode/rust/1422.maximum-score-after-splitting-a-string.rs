@@ -1,3 +1,4 @@
+// @leet start
 impl Solution {
     pub fn max_score(s: String) -> i32 {
         let total_ones = s
@@ -18,3 +19,4 @@ impl Solution {
             .0
     }
 }
+// @leet end

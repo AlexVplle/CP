@@ -1,3 +1,5 @@
+
+// @leet start
 impl Solution {
     pub fn pivot_integer(n: i32) -> i32 {
         let total_sum: i32 = n * (n + 1) / 2;
@@ -9,3 +11,4 @@ impl Solution {
         }
     }
 }
+// @leet end

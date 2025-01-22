@@ -1,3 +1,4 @@
+// @leet start
 impl Solution {
     pub fn final_prices(prices: Vec<i32>) -> Vec<i32> {
         let n: usize = prices.len();
@@ -17,3 +18,5 @@ impl Solution {
         result
     }
 }
+// @leet end
+
